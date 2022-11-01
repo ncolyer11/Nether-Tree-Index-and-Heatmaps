@@ -1,4 +1,4 @@
-# Huge-Fungus-Heat-Map
+# Huge-Fungus-Index-and-Heatmap
 the end of nether tree maths
 
 This repository houses the code used to generate the data containing the probabilities of a stem, shroomlight and wartblock generating for every block within the 7x7x27 huge fungus volume
