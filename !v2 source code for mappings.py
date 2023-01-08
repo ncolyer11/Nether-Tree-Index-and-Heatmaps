@@ -20,9 +20,7 @@ for count1, trunkHeight in enumerate(T):
         offset1 = math.floor(1 + trunkHeight / 3)
         H = list(range(base, base + offset1))
 
-    M = 0
-    while M < len(H):
-        hatHeight = H[M]
+    for hatHeight in H:
         # probability of trunk height (Pt)
         Pt = (
             1 / 120 if trunkHeight > 13 else
@@ -160,8 +158,6 @@ for count1, trunkHeight in enumerate(T):
             print(f"LVS #{bb}: T: {trunkHeight} H: {hatHeight} F: {Fringe[N]} L: {LVS} P: {P}")
             bb += 1
             N += 1
-
-        M += 1
 
 print(Block)
 
